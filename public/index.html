@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brat Animate Generator</title>
+    <meta name="description" content="Tools sederhana yang dibuat dandi subhani untuk membuat teks animasi brat dengan mudah. Hanya dengan memasukkan teks yang diinginkan, lihat dan download hasilnya.">
+    <meta property="og:title" content="Brat Animate Generator">
+    <meta property="og:description" content="Tools sederhana untuk membuat teks animasi brat dengan mudah. Hanya dengan memasukkan teks yang diinginkan, lihat dan download hasilnya.">
+    <meta property="og:image" content="https://brat-animate-git-main-dandies-projects-054d2eeb.vercel.app/logo.png">
+    <meta property="og:url" content="https://brat-animate-7j8sb6om1-dandies-projects-054d2eeb.vercel.app/">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Brat Animate Generator">
+    <meta name="twitter:description" content="Tools sederhana untuk membuat teks animasi brat dengan mudah. Hanya dengan memasukkan teks yang diinginkan, lihat dan download hasilnya.">
+    <meta name="twitter:image" content="https://brat-animate-git-main-dandies-projects-054d2eeb.vercel.app/logo.png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="favicon.png" type="image/png">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Brat Animate Generator</h1>
+            <p class="description">
+                Tools Sederhana untuk Membuat Teks Animasi Brat
+            </p>
+        </div>
+        <div class="content">
+            <div class="input-area">
+                <label for="textInput">Masukkan Teks (Max 250 Karakter):</label>
+                <textarea id="textInput" placeholder="Masukkan teks di sini..."></textarea>
+                <div class="char-count">
+                    <span id="current-char">0</span> / <span id="max-char">250</span>
+                </div>
+                <button id="generateButton">Generate</button>
+            </div>
+            <div class="preview-area">
+                <h2>Preview</h2>
+                <video id="previewVideo" controls></video>
+                <p id="loadingMessage" style="display: none;">sedang diproses<span id="loadingDots"></span></p>
+                <button id="downloadButton" style="display: none;">Download</button>
+            </div>
+        </div>
+        <div class="footer">
+            <p>Made with ❤️ by <a href="https://www.instagram.com/dandisubhani_" target="_blank">@dandisubhani_</a></p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

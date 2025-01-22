@@ -1,0 +1,15 @@
+{
+  "name": "brat-video-generator",
+  "version": "1.0.0",
+  "description": "Aplikasi pembuat video BRAT",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "axios": "^1.6.7",
+    "express": "^4.18.2",
+    "@ffmpeg-installer/ffmpeg": "^1.1.0",
+    "fluent-ffmpeg": "^2.1.2"
+  }
+}

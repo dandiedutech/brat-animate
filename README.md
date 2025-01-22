@@ -4,7 +4,7 @@ Aplikasi web sederhana untuk membuat video dengan efek teks "Brat" menggunakan N
 
 ## Screenshot
 
-![Screenshot Aplikasi](https://8030.us.kg/file/4mS1nAMbGdDr.jpg)
+![Screenshot Aplikasi](https://8030.us.kg/file/WAcYcmBUsynO.jpg)
 
 ## Fitur
 
